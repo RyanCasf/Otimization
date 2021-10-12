@@ -11,12 +11,12 @@ public class Principal
 		ConcatCount cc = new ConcatCount();
 		
 		Integer quantidadeContagem = Integer.parseInt(
-			JOptionPane.showInputDialog("Dígite a quantidade de criações de arrays de chars: "));
+			JOptionPane.showInputDialog("Dígite a quantidade de criações de Arrays de Chars: "));
 		
 		cc.countString(quantidadeContagem);
 		cc.countBuffer(quantidadeContagem);
 		
 		ForEach fe = new ForEach();
-		fe.countFor("Olá o meu nome é Ryan!");
+		fe.countFor(JOptionPane.showInputDialog("Dígite um texto para compração de Fors: "));
 	}
 }
