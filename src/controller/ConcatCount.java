@@ -2,6 +2,11 @@ package controller;
 
 public class ConcatCount 
 {
+	static
+	{
+		System.out.println("\n\tCRIAÇÃO");
+	}
+	
 	public void countString(int quantidade)
 	{
 		double inicio = System.nanoTime();
